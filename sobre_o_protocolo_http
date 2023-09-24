@@ -1,0 +1,17 @@
+Do que uma URL é composta?
+ID + Path(caminho de identificação do recurso)
+https://pokeapi.co/  +  api/v2/pokemon
+
+Request method: GET(o servidor entende que quero buscar o recurso específico). Ex.: /pokemon?type=grass&name=1 -> query string     Ex.: /1 -> path; POST(o servidor entende que quero inserir um recurso específico); PUT(o servidor entende que quero atualizar o recurso específico); DELETE(o servidor entende que quero deletar o recursoespecífico)
+
+O metodo diz o que quero fazer com um recurso em uma requisição
+
+Request headers
+   content-type: application/json
+Request Body
+{
+    "name" : "teste"
+}
+
+Uma requisição é composta por: URL, request method, request header, request body;
+Uma respsota do servidor é composta por: status code (o que aconteceu com a requisição), responsive headers, responsive body.
